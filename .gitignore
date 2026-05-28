@@ -1,0 +1,11 @@
+# Compiled files
+*.exe
+*.out
+*.o
+*.txt
+
+# VS Code temp files
+tempCodeRunnerFile.*
+
+# OS files
+.DS_Store
