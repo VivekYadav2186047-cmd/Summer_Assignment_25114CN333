@@ -9,4 +9,5 @@ while(n>0){
     count = count + 1;
 }
 printf("total number of digit is %d " , count);
+return 0;
 }
