@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    /*Write a program to Calculate sum of first N 
+natural numbers.*/
+int n , sum = 0 ;
+printf("enter the number n =");
+scanf("%d" , &n);
+for(int i = 1; i<=n; i++){
+
+    sum = sum + i;
+
+}
+printf("%d",sum);
+return 0;
+
+}
