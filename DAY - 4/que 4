@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int start, end,temp ,number ,sum, digits,digit;
+
+    printf("Enter the starting number = ");
+    scanf("%d", &start);
+
+    printf("Enter the ending number = ");
+    scanf("%d", &end);
+printf("Armstrong numbers between %d and %d are:\n", start, end);
+
+    for (number = start; number <= end; number++){
+        temp = number;
+        digits = 0;
+        sum = 0;
+
+        // Count digits
+        while (temp != 0){
+            digits++;
+            temp /= 10;
+        }temp = number;
+
+        // Calculate sum of digits raised to the power of digits
+        while (temp != 0){
+            digit = temp % 10;
+            sum += pow(digit, digits);
+            temp /= 10;
+        }
+
+        if (sum==number){
+            printf("%d ",number);
+        }
+    }return 0;
+}
