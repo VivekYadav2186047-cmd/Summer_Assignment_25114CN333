@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(){
+    //Write a program to Generate Fibonacci series
+    int n , first = 0, second = 1, next,i;
+    printf("enter the numaber of terms = ");
+    scanf("%d" , &n);
+
+    for(i=1;i<=n;i++){
+        printf("%d" , first);
+        next = first + second;
+        first = second;
+        second = next;
+
+    }
+    return 0;
+}
