@@ -1,0 +1,9 @@
+# que = Write a program to Convert decimal to binary.
+
+n = int(input("enter the number = "))
+s = ""
+while(n>0):
+    r = n%2
+    s = str(r) + s
+    n = n//2
+print(s)
