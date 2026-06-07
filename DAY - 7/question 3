@@ -1,0 +1,8 @@
+# que = Write a program to Recursive sum of digits .
+def sum_digit(n):
+    if (n == 0): #base condition
+        return 0
+    return (n % 10) + sum_digit(n // 10)
+
+num = int(input("enter the number = "))
+print("sum of digit =" , sum_digit(num))
