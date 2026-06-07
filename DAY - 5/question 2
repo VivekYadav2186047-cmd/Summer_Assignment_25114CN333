@@ -12,7 +12,7 @@ while (n>0):
     sum = sum + fact
   #  print("sum" , sum)
     n = n//10
-    if sum == temp:
+if sum == temp:
         print(temp , "is strong number")
-    else:
-        print(temp , "is not strong number")
+else:
+    print(temp , "is not strong number")
