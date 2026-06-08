@@ -1,0 +1,6 @@
+# que = Write a program to Print half pyramid pattern.
+
+row = int(input("enter the row = "))
+
+for i in range(1 , 1 + row):
+    print("*"*i)
