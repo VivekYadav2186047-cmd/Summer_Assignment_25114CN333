@@ -1,0 +1,12 @@
+# que = Write a program to Print number triangle. 
+# 1 
+# 12 
+# 123 
+# 1234 
+# 12345 
+
+rows = int(input("enter the number of rows = "))
+for i in range(1 , 1 + rows):
+    for j in range(1 , 1 + i):
+        print(j, end="")
+    print()
