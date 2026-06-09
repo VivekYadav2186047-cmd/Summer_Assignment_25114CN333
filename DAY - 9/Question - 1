@@ -1,0 +1,9 @@
+# Write a program to Print reverse star pattern. 
+# ***** 
+# **** 
+# *** 
+# ** 
+# * 
+
+for i in range(5 , 0 , -1): #this generates(5,4,3,2,1)
+    print("*"*i)
