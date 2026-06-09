@@ -1,0 +1,11 @@
+# Write a program to Print repeated character 
+# pattern. 
+# A 
+# BB 
+# CCC 
+# DDDD 
+# EEEEE 
+n = int(input("enter the number = "))
+for i in range(n):
+    ch = chr(65 + i)   #65 is acii value of a
+    print(ch*(i+1))
